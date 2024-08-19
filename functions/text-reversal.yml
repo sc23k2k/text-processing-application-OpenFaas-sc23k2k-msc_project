@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://20.90.163.241:8080
+functions:
+  text-reversal:
+    lang: python3
+    handler: ./text-reversal
+    image: text-reversal:latest
+

@@ -1,0 +1,23 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  word-count:
+    lang: python3
+    handler: ./word-count
+    image: keshawkk/word-count
+    environment:
+      write_debug: true
+  reverse-and-uppercase:
+    lang: python3
+    handler: ./reverse-and-uppercase
+    image: keshawkk/reverse-and-uppercase
+    environment:
+      write_debug: true
+  text-reversal:
+    lang: python3
+    handler: ./text-reversal
+    image: keshawkk/text-reversal
+    environment:
+      write_debug: true

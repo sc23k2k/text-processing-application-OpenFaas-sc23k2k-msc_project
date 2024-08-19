@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://20.90.163.241:8080
+functions:
+  reverse-and-uppercase:
+    lang: python3
+    handler: ./reverse-and-uppercase
+    image: reverse-and-uppercase:latest
+
