@@ -35,4 +35,4 @@ Text Processing Functions: Specific functions designed for text processing, such
 Monitoring and Metrics: Demonstrates how to monitor function performance and resource usage within an OpenFaaS environment, likely using built-in metrics or external monitoring tools.
 
 
-Demo Video : Refer to the provided MP4 files for a detailed walkthrough of the project setup, function deployment, and metric monitoring within the OpenFaaS environment.
+Demo Video : Refer to the provided MP4 files for a detailed walkthrough of the project setup, function deployment, and metric monitoring within the OpenFaaS environment..
